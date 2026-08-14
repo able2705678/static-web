@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Egret</title>
     <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
     <meta name="full-screen" content="true" />
     <meta name="screen-orientation" content="portrait" />
     <meta name="x5-fullscreen" content="true" />
@@ -22,9 +22,9 @@
         #__debug_panel {
             position: fixed;
             top: 0; left: 0; right: 0;
-            max-height: 45%;
+            max-height: 50%;
             overflow: auto;
-            background: rgba(0,0,0,0.85);
+            background: rgba(0,0,0,0.88);
             color: #00ff66;
             font: 11px/1.45 monospace;
             z-index: 99999;
@@ -60,16 +60,48 @@
             var r = e.reason;
             window.__dbg('REJECT', (r && (r.stack || r.message || r)) || r || '(empty reason)');
         });
+
+        var pendingXHRs = 0;
         var origOpen = XMLHttpRequest.prototype.open;
+        var origSend = XMLHttpRequest.prototype.send;
         XMLHttpRequest.prototype.open = function(method, url){
+            this.__url = url; this.__method = method; this.__t0 = Date.now();
+            pendingXHRs++;
+            var self = this;
+            this.addEventListener('loadend', function(){ pendingXHRs--; });
+            return origOpen.apply(this, arguments);
+        };
+        XMLHttpRequest.prototype.send = function(){
             var self = this;
             this.addEventListener('loadend', function(){
-                if (self.status === 0 || self.status >= 400) {
-                    window.__dbg('XHR', self.status + ' ' + method + ' ' + url);
+                var dt = Date.now() - self.__t0;
+                var tag = (self.status === 0 || self.status >= 400) ? 'XHR-FAIL' : 'XHR';
+                var body = self.status + ' ' + self.__method + ' ' + self.__url + ' (' + dt + 'ms)';
+                if (self.status >= 200 && self.status < 300 && self.responseText) {
+                    var ct = (self.getResponseHeader('Content-Type') || '');
+                    var len = self.responseText.length;
+                    var preview = self.responseText.substring(0, 150).replace(/\s+/g, ' ');
+                    body += '\n   CT:' + ct + ' len:' + len + ' preview:' + preview;
+                } else if (self.status === 0) {
+                    body += ' [CORS/NETWORK blocked or timeout]';
                 }
+                window.__dbg(tag, body);
             });
-            return origOpen.apply(self, arguments);
+            return origSend.apply(this, arguments);
         };
+
+        setInterval(function(){
+            if (window.__egretStarted) {
+                window.__dbg('WAIT', 'pending XHRs:' + pendingXHRs);
+                var canvas = document.querySelector('canvas');
+                if (canvas) {
+                    window.__dbg('CANVAS', canvas.width + 'x' + canvas.height + ' disp:' + canvas.style.display);
+                } else {
+                    window.__dbg('CANVAS', 'no canvas element yet');
+                }
+            }
+        }, 5000);
+
         window.__dbg('BOOT', 'index.html loaded');
     })();
     </script>
@@ -127,6 +159,7 @@
         window.__dbg('SCRIPTS', 'loading ' + list.length + ' files');
         loadScript(list, function () {
             window.__dbg('SCRIPTS', 'all loaded, starting egret');
+            window.__egretStarted = true;
             try {
                 egret.runEgret({ renderMode: "webgl", audioType: 0, calculateCanvasScaleFactor:function(context) {
                     var backingStore = context.backingStorePixelRatio ||
@@ -138,6 +171,42 @@
                     return (window.devicePixelRatio || 1) / backingStore;
                 }});
                 window.__dbg('EGRET', 'runEgret returned OK');
+                try {
+                    if (window.egret && egret.log) {
+                        var origLog = egret.log;
+                        egret.log = function(){
+                            window.__dbg('EGRET-LOG', Array.prototype.slice.call(arguments).join(' '));
+                            return origLog.apply(this, arguments);
+                        };
+                    }
+                    if (window.egret && egret.warn) {
+                        var origWarn = egret.warn;
+                        egret.warn = function(){
+                            window.__dbg('EGRET-WARN', Array.prototype.slice.call(arguments).join(' '));
+                            return origWarn.apply(this, arguments);
+                        };
+                    }
+                    if (window.egret && egret.error) {
+                        var origErr = egret.error;
+                        egret.error = function(){
+                            window.__dbg('EGRET-ERROR', Array.prototype.slice.call(arguments).join(' '));
+                            return origErr.apply(this, arguments);
+                        };
+                    }
+                    window.__dbg('EGRET-HOOK', 'log/warn/error hooked');
+                } catch(hookErr) {
+                    window.__dbg('EGRET-HOOK-FAIL', hookErr);
+                }
+                if (window.Main) {
+                    window.__dbg('MAIN', 'Main class exists: ' + typeof Main);
+                } else {
+                    window.__dbg('MAIN', 'Main class NOT defined globally');
+                }
+                if (window.RES && RES.loadConfig) {
+                    window.__dbg('RES', 'RES module present');
+                } else {
+                    window.__dbg('RES', 'RES module NOT present');
+                }
             } catch(err) {
                 window.__dbg('EGRET-ERROR', (err && err.stack) || err);
             }
