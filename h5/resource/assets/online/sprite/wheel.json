@@ -1,0 +1,12 @@
+{"file":"wheel.png","frames":{
+"wheel_title_png":{"x":1421,"y":543,"w":588,"h":133,"offX":0,"offY":0,"sourceW":588,"sourceH":133},
+"wheel_item_bg_0_6_png":{"x":693,"y":621,"w":253,"h":267,"offX":0,"offY":0,"sourceW":253,"sourceH":267},
+"wheel_bg_png":{"x":1421,"y":0,"w":541,"h":541,"offX":0,"offY":0,"sourceW":541,"sourceH":541},
+"wheel_tip_bg_png":{"x":1964,"y":0,"w":43,"h":66,"offX":0,"offY":0,"sourceW":43,"sourceH":66},
+"wheel_item_bg_1_6_png":{"x":948,"y":621,"w":251,"h":264,"offX":1,"offY":1,"sourceW":253,"sourceH":267},
+"wheel_point_png":{"x":1761,"y":678,"w":104,"h":200,"offX":0,"offY":0,"sourceW":104,"sourceH":200},
+"wheel_item_bg_1_8_png":{"x":1397,"y":678,"w":193,"h":263,"offX":1,"offY":1,"sourceW":194,"sourceH":264},
+"wheel_bg2_png":{"x":0,"y":0,"w":691,"h":691,"offX":0,"offY":0,"sourceW":691,"sourceH":691},
+"wheel_item_bg_0_8_png":{"x":1201,"y":621,"w":194,"h":264,"offX":0,"offY":0,"sourceW":194,"sourceH":264},
+"wheel_star_png":{"x":693,"y":0,"w":726,"h":619,"offX":0,"offY":0,"sourceW":726,"sourceH":619},
+"wheel_center_png":{"x":1592,"y":678,"w":167,"h":187,"offX":0,"offY":0,"sourceW":167,"sourceH":187}}}

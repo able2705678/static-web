@@ -1,0 +1,15 @@
+{"file":"cookbook.png","frames":{
+"cookbook_selected_item_png":{"x":1849,"y":95,"w":124,"h":167,"offX":0,"offY":0,"sourceW":124,"sourceH":167},
+"cookbook_main_bg_jpg":{"x":0,"y":0,"w":750,"h":1334,"offX":0,"offY":0,"sourceW":750,"sourceH":1334},
+"cookbook_item_get_png":{"x":1975,"y":146,"w":46,"h":40,"offX":0,"offY":0,"sourceW":46,"sourceH":40},
+"cookbook_select_item_png":{"x":1723,"y":95,"w":124,"h":167,"offX":0,"offY":0,"sourceW":124,"sourceH":167},
+"cookbook_lock_text_png":{"x":1819,"y":397,"w":100,"h":33,"offX":0,"offY":0,"sourceW":100,"sourceH":33},
+"cookbook_main_bg1_png":{"x":752,"y":0,"w":698,"h":1273,"offX":0,"offY":0,"sourceW":698,"sourceH":1273},
+"cookbook_step_png":{"x":2027,"y":0,"w":14,"h":14,"offX":0,"offY":0,"sourceW":14,"sourceH":14},
+"cookbook_select_header_png":{"x":752,"y":1275,"w":750,"h":178,"offX":0,"offY":0,"sourceW":750,"sourceH":178},
+"cookbook_select_name_png":{"x":1723,"y":0,"w":302,"h":93,"offX":0,"offY":0,"sourceW":302,"sourceH":93},
+"cookbook_lock_banner_png":{"x":1452,"y":296,"w":549,"h":99,"offX":0,"offY":0,"sourceW":549,"sourceH":99},
+"cookbook_next_png":{"x":1975,"y":95,"w":40,"h":49,"offX":0,"offY":0,"sourceW":40,"sourceH":49},
+"cookbook_main_text_png":{"x":1452,"y":397,"w":239,"h":84,"offX":0,"offY":0,"sourceW":239,"sourceH":84},
+"cookbook_material_bg_png":{"x":1693,"y":397,"w":124,"h":127,"offX":0,"offY":0,"sourceW":124,"sourceH":127},
+"cookbook_main_img_png":{"x":1452,"y":0,"w":269,"h":294,"offX":0,"offY":0,"sourceW":269,"sourceH":294}}}

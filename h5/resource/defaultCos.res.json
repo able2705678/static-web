@@ -1,0 +1,998 @@
+{
+	"groups": [
+		{
+			"keys": "feedback_png,common_json,food_json,sky_01_png,kitchen_01_png,main_json",
+			"name": "cell"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/online/feedback.png",
+			"type": "image",
+			"name": "feedback_png"
+		},
+		{
+			"url": "assets/online/skelenton/chaojichushi_tex.png",
+			"type": "image",
+			"name": "chaojichushi_tex_png"
+		},
+		{
+			"url": "assets/online/skelenton/chaojinanjingli_tex.png",
+			"type": "image",
+			"name": "chaojinanjingli_tex_png"
+		},
+		{
+			"url": "assets/online/skelenton/chaojinvjingli_tex.png",
+			"type": "image",
+			"name": "chaojinvjingli_tex_png"
+		},
+		{
+			"url": "assets/online/skelenton/laochushi_tex.png",
+			"type": "image",
+			"name": "laochushi_tex_png"
+		},
+		{
+			"url": "assets/online/skelenton/nanchushi1_tex.png",
+			"type": "image",
+			"name": "nanchushi1_tex_png"
+		},
+		{
+			"url": "assets/online/skelenton/nanchushi2_tex.png",
+			"type": "image",
+			"name": "nanchushi2_tex_png"
+		},
+		{
+			"url": "assets/online/skelenton/nanchushi3_tex.png",
+			"type": "image",
+			"name": "nanchushi3_tex_png"
+		},
+		{
+			"url": "assets/online/skelenton/nanjingli1_tex.png",
+			"type": "image",
+			"name": "nanjingli1_tex_png"
+		},
+		{
+			"url": "assets/online/skelenton/nanjingli2_tex.png",
+			"type": "image",
+			"name": "nanjingli2_tex_png"
+		},
+		{
+			"url": "assets/online/skelenton/nanjingli3_tex.png",
+			"type": "image",
+			"name": "nanjingli3_tex_png"
+		},
+		{
+			"url": "assets/online/skelenton/nvchushi1_tex.png",
+			"type": "image",
+			"name": "nvchushi1_tex_png"
+		},
+		{
+			"url": "assets/online/skelenton/nvchushi2_tex.png",
+			"type": "image",
+			"name": "nvchushi2_tex_png"
+		},
+		{
+			"url": "assets/online/skelenton/nvchushi3_tex.png",
+			"type": "image",
+			"name": "nvchushi3_tex_png"
+		},
+		{
+			"url": "assets/online/skelenton/nvjingli1_tex.png",
+			"type": "image",
+			"name": "nvjingli1_tex_png"
+		},
+		{
+			"url": "assets/online/skelenton/nvjingli2_tex.png",
+			"type": "image",
+			"name": "nvjingli2_tex_png"
+		},
+		{
+			"url": "assets/online/skelenton/nvjingli3_tex.png",
+			"type": "image",
+			"name": "nvjingli3_tex_png"
+		},
+		{
+			"url": "assets/online/skelenton/chaojichushi_tex.json",
+			"type": "json",
+			"name": "chaojichushi_tex_json"
+		},
+		{
+			"url": "assets/online/skelenton/chaojichushi_ske.json",
+			"type": "json",
+			"name": "chaojichushi_ske_json"
+		},
+		{
+			"url": "assets/online/skelenton/chaojinanjingli_tex.json",
+			"type": "json",
+			"name": "chaojinanjingli_tex_json"
+		},
+		{
+			"url": "assets/online/skelenton/chaojinanjingli_ske.json",
+			"type": "json",
+			"name": "chaojinanjingli_ske_json"
+		},
+		{
+			"url": "assets/online/skelenton/chaojinvjingli_ske.json",
+			"type": "json",
+			"name": "chaojinvjingli_ske_json"
+		},
+		{
+			"url": "assets/online/skelenton/chaojinvjingli_tex.json",
+			"type": "json",
+			"name": "chaojinvjingli_tex_json"
+		},
+		{
+			"url": "assets/online/skelenton/laochushi_ske.json",
+			"type": "json",
+			"name": "laochushi_ske_json"
+		},
+		{
+			"url": "assets/online/skelenton/laochushi_tex.json",
+			"type": "json",
+			"name": "laochushi_tex_json"
+		},
+		{
+			"url": "assets/online/skelenton/nanchushi1_ske.json",
+			"type": "json",
+			"name": "nanchushi1_ske_json"
+		},
+		{
+			"url": "assets/online/skelenton/nanchushi2_tex.json",
+			"type": "json",
+			"name": "nanchushi2_tex_json"
+		},
+		{
+			"url": "assets/online/skelenton/nanchushi1_tex.json",
+			"type": "json",
+			"name": "nanchushi1_tex_json"
+		},
+		{
+			"url": "assets/online/skelenton/nanchushi2_ske.json",
+			"type": "json",
+			"name": "nanchushi2_ske_json"
+		},
+		{
+			"url": "assets/online/skelenton/nanchushi3_ske.json",
+			"type": "json",
+			"name": "nanchushi3_ske_json"
+		},
+		{
+			"url": "assets/online/skelenton/nanchushi3_tex.json",
+			"type": "json",
+			"name": "nanchushi3_tex_json"
+		},
+		{
+			"url": "assets/online/skelenton/nanjingli1_tex.json",
+			"type": "json",
+			"name": "nanjingli1_tex_json"
+		},
+		{
+			"url": "assets/online/skelenton/nanjingli1_ske.json",
+			"type": "json",
+			"name": "nanjingli1_ske_json"
+		},
+		{
+			"url": "assets/online/skelenton/nanjingli2_ske.json",
+			"type": "json",
+			"name": "nanjingli2_ske_json"
+		},
+		{
+			"url": "assets/online/skelenton/nanjingli3_tex.json",
+			"type": "json",
+			"name": "nanjingli3_tex_json"
+		},
+		{
+			"url": "assets/online/skelenton/nanjingli2_tex.json",
+			"type": "json",
+			"name": "nanjingli2_tex_json"
+		},
+		{
+			"url": "assets/online/skelenton/nanjingli3_ske.json",
+			"type": "json",
+			"name": "nanjingli3_ske_json"
+		},
+		{
+			"url": "assets/online/skelenton/nvchushi1_tex.json",
+			"type": "json",
+			"name": "nvchushi1_tex_json"
+		},
+		{
+			"url": "assets/online/skelenton/nvchushi1_ske.json",
+			"type": "json",
+			"name": "nvchushi1_ske_json"
+		},
+		{
+			"url": "assets/online/skelenton/nvchushi2_tex.json",
+			"type": "json",
+			"name": "nvchushi2_tex_json"
+		},
+		{
+			"url": "assets/online/skelenton/nvchushi3_ske.json",
+			"type": "json",
+			"name": "nvchushi3_ske_json"
+		},
+		{
+			"url": "assets/online/skelenton/nvchushi3_tex.json",
+			"type": "json",
+			"name": "nvchushi3_tex_json"
+		},
+		{
+			"url": "assets/online/skelenton/nvjingli1_tex.json",
+			"type": "json",
+			"name": "nvjingli1_tex_json"
+		},
+		{
+			"url": "assets/online/skelenton/nvjingli2_ske.json",
+			"type": "json",
+			"name": "nvjingli2_ske_json"
+		},
+		{
+			"url": "assets/online/skelenton/nvchushi2_ske.json",
+			"type": "json",
+			"name": "nvchushi2_ske_json"
+		},
+		{
+			"url": "assets/online/skelenton/nvjingli1_ske.json",
+			"type": "json",
+			"name": "nvjingli1_ske_json"
+		},
+		{
+			"url": "assets/online/skelenton/nvjingli3_ske.json",
+			"type": "json",
+			"name": "nvjingli3_ske_json"
+		},
+		{
+			"url": "assets/online/skelenton/nvjingli3_tex.json",
+			"type": "json",
+			"name": "nvjingli3_tex_json"
+		},
+		{
+			"url": "assets/online/skelenton/nvjingli2_tex.json",
+			"type": "json",
+			"name": "nvjingli2_tex_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/beibao_tex.png",
+			"type": "image",
+			"name": "beibao_tex_png"
+		},
+		{
+			"url": "assets/online/skeleton_other/caipin_tex.png",
+			"type": "image",
+			"name": "caipin_tex_png"
+		},
+		{
+			"url": "assets/online/skeleton_other/caipinyanjiu_tex.png",
+			"type": "image",
+			"name": "caipinyanjiu_tex_png"
+		},
+		{
+			"url": "assets/online/skeleton_other/cash_tex.png",
+			"type": "image",
+			"name": "cash_tex_png"
+		},
+		{
+			"url": "assets/online/skeleton_other/daojufeixing_baoxiang_tex.png",
+			"type": "image",
+			"name": "daojufeixing_baoxiang_tex_png"
+		},
+		{
+			"url": "assets/online/skeleton_other/jiantou_tex.png",
+			"type": "image",
+			"name": "jiantou_tex_png"
+		},
+		{
+			"url": "assets/online/skeleton_other/kaidian_tex.png",
+			"type": "image",
+			"name": "kaidian_tex_png"
+		},
+		{
+			"url": "assets/online/skeleton_other/shijiantiao_tex.png",
+			"type": "image",
+			"name": "shijiantiao_tex_png"
+		},
+		{
+			"url": "assets/online/skeleton_other/shouyi_tex.png",
+			"type": "image",
+			"name": "shouyi_tex_png"
+		},
+		{
+			"url": "assets/online/skeleton_other/shouyinji_tex.png",
+			"type": "image",
+			"name": "shouyinji_tex_png"
+		},
+		{
+			"url": "assets/online/skeleton_other/caipin_ske.json",
+			"type": "json",
+			"name": "caipin_ske_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/beibao_tex.json",
+			"type": "json",
+			"name": "beibao_tex_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/beibao_ske.json",
+			"type": "json",
+			"name": "beibao_ske_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/caipinyanjiu_tex.json",
+			"type": "json",
+			"name": "caipinyanjiu_tex_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/caipinyanjiu_ske.json",
+			"type": "json",
+			"name": "caipinyanjiu_ske_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/cash_tex.json",
+			"type": "json",
+			"name": "cash_tex_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/daojufeixing_baoxiang_ske.json",
+			"type": "json",
+			"name": "daojufeixing_baoxiang_ske_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/daojufeixing_baoxiang_tex.json",
+			"type": "json",
+			"name": "daojufeixing_baoxiang_tex_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/cash_ske.json",
+			"type": "json",
+			"name": "cash_ske_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/jiantou_tex.json",
+			"type": "json",
+			"name": "jiantou_tex_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/kaidian_ske.json",
+			"type": "json",
+			"name": "kaidian_ske_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/caipin_tex.json",
+			"type": "json",
+			"name": "caipin_tex_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/shijiantiao_ske.json",
+			"type": "json",
+			"name": "shijiantiao_ske_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/kaidian_tex.json",
+			"type": "json",
+			"name": "kaidian_tex_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/shijiantiao_tex.json",
+			"type": "json",
+			"name": "shijiantiao_tex_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/jiantou_ske.json",
+			"type": "json",
+			"name": "jiantou_ske_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/shouyi_ske.json",
+			"type": "json",
+			"name": "shouyi_ske_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/shouyi_tex.json",
+			"type": "json",
+			"name": "shouyi_tex_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/shouyinji_tex.json",
+			"type": "json",
+			"name": "shouyinji_tex_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/shouyinji_ske.json",
+			"type": "json",
+			"name": "shouyinji_ske_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/fuwuyuan_tex.png",
+			"type": "image",
+			"name": "fuwuyuan_tex_png"
+		},
+		{
+			"url": "assets/online/skeleton_other/maoxianjia_tex.png",
+			"type": "image",
+			"name": "maoxianjia_tex_png"
+		},
+		{
+			"url": "assets/online/skeleton_other/fuwuyuan_ske.json",
+			"type": "json",
+			"name": "fuwuyuan_ske_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/maoxianjia_ske.json",
+			"type": "json",
+			"name": "maoxianjia_ske_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/fuwuyuan_tex.json",
+			"type": "json",
+			"name": "fuwuyuan_tex_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/maoxianjia_tex.json",
+			"type": "json",
+			"name": "maoxianjia_tex_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/baoxiang_ske.json",
+			"type": "json",
+			"name": "baoxiang_ske_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/baoxiang_tex.json",
+			"type": "json",
+			"name": "baoxiang_tex_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/baoxiang_tex.png",
+			"type": "image",
+			"name": "baoxiang_tex_png"
+		},
+		{
+			"url": "assets/online/skeleton_other/caipinyanjiu_star_tex.png",
+			"type": "image",
+			"name": "caipinyanjiu_star_tex_png"
+		},
+		{
+			"url": "assets/online/skeleton_other/caipinyanjiu_star_ske.json",
+			"type": "json",
+			"name": "caipinyanjiu_star_ske_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/caipinyanjiu_star_tex.json",
+			"type": "json",
+			"name": "caipinyanjiu_star_tex_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/coin_ske.json",
+			"type": "json",
+			"name": "coin_ske_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/coin_tex.json",
+			"type": "json",
+			"name": "coin_tex_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/coin_tex.png",
+			"type": "image",
+			"name": "coin_tex_png"
+		},
+		{
+			"url": "assets/online/skeleton_other/huodewupin_tex.png",
+			"type": "image",
+			"name": "huodewupin_tex_png"
+		},
+		{
+			"url": "assets/online/skeleton_other/kelingqu_tex.png",
+			"type": "image",
+			"name": "kelingqu_tex_png"
+		},
+		{
+			"url": "assets/online/skeleton_other/shouzhi_tex.png",
+			"type": "image",
+			"name": "shouzhi_tex_png"
+		},
+		{
+			"url": "assets/online/skeleton_other/kelingqu_ske.json",
+			"type": "json",
+			"name": "kelingqu_ske_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/huodewupin_tex.json",
+			"type": "json",
+			"name": "huodewupin_tex_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/kelingqu_tex.json",
+			"type": "json",
+			"name": "kelingqu_tex_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/shouzhi_ske.json",
+			"type": "json",
+			"name": "shouzhi_ske_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/shouzhi_tex.json",
+			"type": "json",
+			"name": "shouzhi_tex_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/huodewupin_ske.json",
+			"type": "json",
+			"name": "huodewupin_ske_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/BX_chuanqi_tex.png",
+			"type": "image",
+			"name": "BX_chuanqi_tex_png"
+		},
+		{
+			"url": "assets/online/skeleton_other/BX_fuhao_tex.png",
+			"type": "image",
+			"name": "BX_fuhao_tex_png"
+		},
+		{
+			"url": "assets/online/skeleton_other/BX_huangjin_tex.png",
+			"type": "image",
+			"name": "BX_huangjin_tex_png"
+		},
+		{
+			"url": "assets/online/skeleton_other/BX_yin_tex.png",
+			"type": "image",
+			"name": "BX_yin_tex_png"
+		},
+		{
+			"url": "assets/online/skeleton_other/huanzhuang_tex.png",
+			"type": "image",
+			"name": "huanzhuang_tex_png"
+		},
+		{
+			"url": "assets/online/skeleton_other/BX_chuanqi_ske.json",
+			"type": "json",
+			"name": "BX_chuanqi_ske_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/BX_fuhao_ske.json",
+			"type": "json",
+			"name": "BX_fuhao_ske_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/BX_chuanqi_tex.json",
+			"type": "json",
+			"name": "BX_chuanqi_tex_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/BX_fuhao_tex.json",
+			"type": "json",
+			"name": "BX_fuhao_tex_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/BX_huangjin_ske.json",
+			"type": "json",
+			"name": "BX_huangjin_ske_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/BX_huangjin_tex.json",
+			"type": "json",
+			"name": "BX_huangjin_tex_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/BX_yin_ske.json",
+			"type": "json",
+			"name": "BX_yin_ske_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/BX_yin_tex.json",
+			"type": "json",
+			"name": "BX_yin_tex_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/huanzhuang_ske.json",
+			"type": "json",
+			"name": "huanzhuang_ske_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/huanzhuang_tex.json",
+			"type": "json",
+			"name": "huanzhuang_tex_json"
+		},
+		{
+			"url": "assets/online/async/eaves_02.png",
+			"type": "image",
+			"name": "eaves_02_png"
+		},
+		{
+			"url": "assets/online/async/eaves_03.png",
+			"type": "image",
+			"name": "eaves_03_png"
+		},
+		{
+			"url": "assets/online/async/eaves_04.png",
+			"type": "image",
+			"name": "eaves_04_png"
+		},
+		{
+			"url": "assets/online/async/htp_img.png",
+			"type": "image",
+			"name": "htp_img_png"
+		},
+		{
+			"url": "assets/online/async/island_1.png",
+			"type": "image",
+			"name": "island_1_png"
+		},
+		{
+			"url": "assets/online/async/island_2.png",
+			"type": "image",
+			"name": "island_2_png"
+		},
+		{
+			"url": "assets/online/async/island_3.png",
+			"type": "image",
+			"name": "island_3_png"
+		},
+		{
+			"url": "assets/online/async/kitchen_02.png",
+			"type": "image",
+			"name": "kitchen_02_png"
+		},
+		{
+			"url": "assets/online/async/kitchen_03.png",
+			"type": "image",
+			"name": "kitchen_03_png"
+		},
+		{
+			"url": "assets/online/async/kitchen_04.png",
+			"type": "image",
+			"name": "kitchen_04_png"
+		},
+		{
+			"url": "assets/online/async/main_htp.png",
+			"type": "image",
+			"name": "main_htp_png"
+		},
+		{
+			"url": "assets/online/async/sky_02.png",
+			"type": "image",
+			"name": "sky_02_png"
+		},
+		{
+			"url": "assets/online/async/sky_03.png",
+			"type": "image",
+			"name": "sky_03_png"
+		},
+		{
+			"url": "assets/online/async/sky_04.png",
+			"type": "image",
+			"name": "sky_04_png"
+		},
+		{
+			"url": "assets/online/async/store_icon_1.png",
+			"type": "image",
+			"name": "store_icon_1_png"
+		},
+		{
+			"url": "assets/online/async/store_icon_2.png",
+			"type": "image",
+			"name": "store_icon_2_png"
+		},
+		{
+			"url": "assets/online/async/store_icon_3.png",
+			"type": "image",
+			"name": "store_icon_3_png"
+		},
+		{
+			"url": "assets/online/async/store_icon_4.png",
+			"type": "image",
+			"name": "store_icon_4_png"
+		},
+		{
+			"url": "assets/online/async/fly/flyinggift_cash.png",
+			"type": "image",
+			"name": "flyinggift_cash_png"
+		},
+		{
+			"url": "assets/online/async/fly/flyinggift_chest.png",
+			"type": "image",
+			"name": "flyinggift_chest_png"
+		},
+		{
+			"url": "assets/online/async/fly/flyinggift_coin.png",
+			"type": "image",
+			"name": "flyinggift_coin_png"
+		},
+		{
+			"url": "assets/online/async/fly/flyinggift_prop0.png",
+			"type": "image",
+			"name": "flyinggift_prop0_png"
+		},
+		{
+			"url": "assets/online/async/fly/flyinggift_prop1.png",
+			"type": "image",
+			"name": "flyinggift_prop1_png"
+		},
+		{
+			"url": "assets/online/skeleton_other/waimaiyuan_tex.png",
+			"type": "image",
+			"name": "waimaiyuan_tex_png"
+		},
+		{
+			"url": "assets/online/skeleton_other/waimaiyuan_ske.json",
+			"type": "json",
+			"name": "waimaiyuan_ske_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/waimaiyuan_tex.json",
+			"type": "json",
+			"name": "waimaiyuan_tex_json"
+		},
+		{
+			"url": "assets/online/outtering_bg.jpg",
+			"type": "image",
+			"name": "outtering_bg_jpg"
+		},
+		{
+			"url": "assets/online/boss_secret.png",
+			"type": "image",
+			"name": "boss_secret_png"
+		},
+		{
+			"url": "assets/online/adventure_bg.jpg",
+			"type": "image",
+			"name": "adventure_bg_jpg"
+		},
+		{
+			"url": "assets/online/sprite/common.json",
+			"type": "sheet",
+			"name": "common_json",
+			"subkeys": "already_get_png,banner2_png,bg_white_btn_png,btn_text_receive_png,cancel_text_png,cash_1_png,cash_2_png,cash_3_png,cash_4_png,cash_5_png,cash_6_png,cash_png,close2_png,close_png,collect_text_png,confirm_buy_text_png,confirm_prop_text_png,double_collecttext_png,double_text_png,double_time_text_png,free_text_png,greenBtn_bg_png,grey_btn_png,icon_home_coin_png,icon_home_diamond_png,icon_two_times_png,item_bg_png,merge_select_png,merge_unselect_png,mission_get_png,mission_go_png,offline_multiple_png,open_btn_text_png,playIcon1_png,playIcon2_png,playIcon_png,pop_btn1_png,pop_btn2_png,popup_bg_png,popup_header_png,red_btn_png,shareIcon1_png,shareIcon_png,share_head_bg_png,share_success_head_png,shop_item_bg_png,star_half_png,star_png,star_void_png,stripe_bg_jpg,sure_text2_png,sure_text_png,time_icon_png,unlock_btn_text_png,void_line_png,wenhao_png,yellow_btn_png"
+		},
+		{
+			"url": "assets/online/sprite/food.json",
+			"type": "sheet",
+			"name": "food_json",
+			"subkeys": "f_img_01_png,f_img_02_png,f_img_03_png,f_img_04_png,f_img_05_png,f_img_06_png,f_img_07_png,f_img_08_png,f_img_09_png,f_img_10_png,f_img_11_png,f_img_12_png,f_img_13_png,f_img_14_png,f_img_15_png,f_img_16_png,f_img_17_png,f_img_18_png,f_img_19_png,f_img_20_png,f_img_21_png"
+		},
+		{
+			"url": "assets/online/sprite/head.json",
+			"type": "sheet",
+			"name": "head_json",
+			"subkeys": "boss_i_00_png,boss_i_01_png,boss_i_02_png,cooker_m_01_png,cooker_m_02_png,cooker_m_03_png,cooker_m_04_png,cooker_w_01_png,cooker_w_02_png,cooker_w_03_png,courier_head_png,manager_m_01_png,manager_m_02_png,manager_m_03_png,manager_m_04_png,manager_w_01_png,manager_w_02_png,manager_w_03_png,manager_w_04_png,waiter_head_png"
+		},
+		{
+			"url": "assets/online/skeleton_other/renwu_tex.png",
+			"type": "image",
+			"name": "renwu_tex_png"
+		},
+		{
+			"url": "assets/online/skeleton_other/renwu_ske.json",
+			"type": "json",
+			"name": "renwu_ske_json"
+		},
+		{
+			"url": "assets/online/skeleton_other/renwu_tex.json",
+			"type": "json",
+			"name": "renwu_tex_json"
+		},
+		{
+			"url": "assets/online/async/kitchen_01.png",
+			"type": "image",
+			"name": "kitchen_01_png"
+		},
+		{
+			"url": "assets/online/async/sky_01.png",
+			"type": "image",
+			"name": "sky_01_png"
+		},
+		{
+			"url": "assets/online/async/store_mask_1.png",
+			"type": "image",
+			"name": "store_mask_1_png"
+		},
+		{
+			"url": "assets/online/async/store_mask_2.png",
+			"type": "image",
+			"name": "store_mask_2_png"
+		},
+		{
+			"url": "assets/online/async/store_mask_3.png",
+			"type": "image",
+			"name": "store_mask_3_png"
+		},
+		{
+			"url": "assets/online/async/store_mask_4.png",
+			"type": "image",
+			"name": "store_mask_4_png"
+		},
+		{
+			"url": "assets/online/async/store_mask_5.png",
+			"type": "image",
+			"name": "store_mask_5_png"
+		},
+		{
+			"url": "assets/online/sprite/bigmap.json",
+			"type": "sheet",
+			"name": "bigmap_json",
+			"subkeys": "add_portrait_png,allow_yellow_png,bank_island_png,bigmap_add_png,bigmap_add_text_png,bigmap_coin_png,bigmap_collect_text_png,bigmap_lock_png,bigmap_slide_bg_png,bigmap_store_lock_png,bigmap_store_tip_bg_png,bigmap_store_tip_png,blue_banner_png,half_time_text2_png,island_1_name_png,island_adventure_png,island_chest_png,island_other_bg_png,island_research_png,island_suite_png,line_1_1_png,line_1_2_png,line_1_3_png,line_1_4_png,line_1_5_png,white_ex_mark_png"
+		},
+		{
+			"url": "assets/online/sprite/bank.json",
+			"type": "sheet",
+			"name": "bank_json",
+			"subkeys": "bank1_png,bank_bg_1_jpg,bank_icon_1_png,bank_item_bg_png,bank_item_bg_selected_png,bank_item_lock_png,bank_rule_png,coin1_png,coin2_png,coin3_png,coin4_png,coin5_png,coin_g_1_png,coin_g_2_png,coin_g_3_png,coin_g_4_png,coin_g_5_png,coin_i_png,coin_png,exchangeProgressBar_bg_png,exchangeProgressBar_png,exchange_add_btn_a_png,exchange_add_btn_png,exchange_btn_png,exchange_open_choose_png,exchange_sub_btn_a_png,exchange_sub_btn_png"
+		},
+		{
+			"url": "assets/online/sprite/cookbook.json",
+			"type": "sheet",
+			"name": "cookbook_json",
+			"subkeys": "cookbook_item_get_png,cookbook_lock_banner_png,cookbook_lock_text_png,cookbook_main_bg1_png,cookbook_main_bg_jpg,cookbook_main_img_png,cookbook_main_text_png,cookbook_material_bg_png,cookbook_next_png,cookbook_select_header_png,cookbook_select_item_png,cookbook_select_name_png,cookbook_selected_item_png,cookbook_step_png"
+		},
+		{
+			"url": "assets/online/sprite/adventure.json",
+			"type": "sheet",
+			"name": "adventure_json",
+			"subkeys": "adventure_0_banner_png,adventure_0_head_png,adventure_0_title_png,adventure_1_banner_png,adventure_1_head_png,adventure_1_title_png,adventure_2_banner_png,adventure_2_head_png,adventure_2_title_png,adventure_3_banner_png,adventure_3_head_png,adventure_3_title_png,adventure_4_banner_png,adventure_4_title_png,adventure_btn_png,adventure_get_png,adventure_ing_png,adventure_share_text_png,broadcast_icon_png"
+		},
+		{
+			"url": "assets/online/sprite/food2.json",
+			"type": "sheet",
+			"name": "food2_json",
+			"subkeys": "f_img_22_png,f_img_23_png,f_img_24_png,f_img_25_png,f_img_26_png,f_img_27_png,f_img_28_png,f_img_29_png,f_img_30_png,f_img_31_png,f_img_32_png,f_img_33_png,f_img_34_png,f_img_35_png,f_img_36_png,f_img_37_png,f_img_38_png,f_img_39_png,f_img_40_png,f_img_41_png,f_img_42_png,f_img_43_png,f_img_44_png,f_img_45_png,f_img_46_png,f_img_47_png,f_img_48_png,f_img_49_png,f_img_50_png,f_img_51_png,f_img_52_png,f_img_53_png,f_img_54_png,f_img_55_png,f_img_56_png,f_img_57_png,f_img_58_png,f_img_59_png,f_img_60_png,f_img_61_png,f_img_62_png,f_img_63_png,f_img_64_png,f_img_65_png,f_img_66_png,f_img_67_png,f_img_68_png,f_img_69_png,f_img_70_png,f_img_71_png,f_img_72_png,f_img_73_png,f_img_74_png,f_img_75_png,f_img_76_png,f_img_77_png,f_img_78_png,f_img_79_png,f_img_80_png,f_img_81_png"
+		},
+		{
+			"url": "assets/online/sprite/guide.json",
+			"type": "sheet",
+			"name": "guide_json",
+			"subkeys": "finger_png,green_mask_png,guide_10_png,guide_11_png,guide_12_png,guide_13_png,guide_14_png,guide_15_png,guide_16_head_png,guide_17_png,guide_18_png,guide_19_png,guide_1_head_png,guide_20_png,guide_21_png,guide_22_head_png,guide_23_head_png,guide_24_head_png,guide_2_head_png,guide_3_png,guide_4_head_png,guide_5_png,guide_6_png,guide_7_png,guide_8_head_png,guide_9_png,skip_guide_png,testament_btn_png,testament_png"
+		},
+		{
+			"url": "assets/online/sprite/guide2.json",
+			"type": "sheet",
+			"name": "guide2_json",
+			"subkeys": "font01_png,font02_png,font03_png,font04_png,font05_png,font06_png,font07_png,font08_png,font09_png,font10_png,guide_1_s_png,guide_2_s_png,guide_3_s_png,guide_4_s_png,guide_5_s_png,missiontips01_png,missiontips02_png,missiontips03_png,missiontips04_png,missiontips05_png,missiontips06_png,s_bg_png,s_boss_png,tips01_png,tips02_png,tips03_png,tips04_png,tips05_png,tips06_png,tips07_png,tips08_png,tips09_png,tips10_png"
+		},
+		{
+			"url": "assets/online/sprite/item_big.json",
+			"type": "sheet",
+			"name": "item_big_json",
+			"subkeys": "big_item_double_png,big_item_one_png,big_item_what_png,big_reward_lock_png,item_big_guangxiao_png,item_big_linping_png,item_big_png,item_big_progress_down_png,item_big_progress_png,item_big_qiang_png,item_big_suo_png,item_big_wpbg_png"
+		},
+		{
+			"url": "assets/online/sprite/hire.json",
+			"type": "sheet",
+			"name": "hire_json",
+			"subkeys": "auto_work_label_png,free_hire_chef_text_png,free_hire_manager_text_png,hire_assign_btn_png,hire_bg_png,hire_item_bg_png,hire_super_chef_text_png,hire_super_manager_text_png,hire_unassign_btn_png,skill01_png,skill02_png,skill03_png,skill04_png,skill05_png,skill06_png,skill07_png,skill08_png,skill10_png,skill_bg_png,skill_bg_selected_png,upgrade_courier_number_png,upgrade_courier_speed_png,upgrade_courier_take_png,upgrade_courier_takespeed_png,upgrade_courier_total_png,upgrade_range_bg_png,upgrade_selected_bg_png,upgrade_waiter_number_png,upgrade_waiter_speed_png,upgrade_waiter_take_png,upgrade_waiter_takespeed_png,upgrade_waiter_total_png"
+		},
+		{
+			"url": "assets/online/sprite/m2.json",
+			"type": "sheet",
+			"name": "m2_json",
+			"subkeys": "m_img_30_png,m_img_31_png,m_img_32_png,m_img_33_png,m_img_34_png,m_img_35_png,m_img_36_png,m_img_37_png,m_img_38_png,m_img_39_png,m_img_40_png,m_img_41_png,m_img_42_png,m_img_43_png,m_img_44_png,m_img_45_png,m_img_46_png,m_img_47_png,m_img_48_png,m_img_49_png,m_img_50_png,m_img_51_png,m_img_52_png,m_img_53_png,m_img_54_png,m_img_55_png,m_img_56_png,m_img_57_png,m_img_58_png,m_img_59_png,m_img_60_png,m_img_61_png,m_img_62_png,m_img_63_png"
+		},
+		{
+			"url": "assets/online/sprite/m3.json",
+			"type": "sheet",
+			"name": "m3_json",
+			"subkeys": "m_img_100_png,m_img_101_png,m_img_102_png,m_img_103_png,m_img_104_png,m_img_105_png,m_img_106_png,m_img_107_png,m_img_108_png,m_img_109_png,m_img_110_png,m_img_111_png,m_img_112_png,m_img_113_png,m_img_114_png,m_img_115_png,m_img_116_png,m_img_117_png,m_img_64_png,m_img_65_png,m_img_66_png,m_img_67_png,m_img_68_png,m_img_69_png,m_img_70_png,m_img_71_png,m_img_72_png,m_img_73_png,m_img_74_png,m_img_75_png,m_img_76_png,m_img_77_png,m_img_78_png,m_img_79_png,m_img_80_png,m_img_81_png,m_img_82_png,m_img_83_png,m_img_84_png,m_img_85_png,m_img_86_png,m_img_87_png,m_img_88_png,m_img_89_png,m_img_90_png,m_img_91_png,m_img_92_png,m_img_93_png,m_img_94_png,m_img_95_png,m_img_96_png,m_img_97_png,m_img_98_png,m_img_99_png"
+		},
+		{
+			"url": "assets/online/sprite/outterring.json",
+			"type": "sheet",
+			"name": "outterring_json",
+			"subkeys": "double_img_png,fire_balloon_png,flyinggift_bg_png,flyinggift_share_png,flyinggift_video_png,free_upgrade_banner_png,free_upgrade_icon_png,free_upgrade_lv_png,popup_cash_1_png,popup_cash_2_png,popup_cash_3_png,popup_coin_1_png,popup_coin_2_png,popup_coin_3_png"
+		},
+		{
+			"url": "assets/online/sprite/rank.json",
+			"type": "sheet",
+			"name": "rank_json",
+			"subkeys": "NO1_bg_png,NO1_png,NO2_bg_png,NO2_png,NO3_bg_png,NO3_png,NO_bg_png,NO_mine_bg_png,NO_png,boss_upgrade_img_png,loc_icon_png,rank_friend_btn_png,rank_friend_share_png,rank_friend_title_png,rank_next_png,rank_pre_png,rank_split_line_png,rank_world_tip_png"
+		},
+		{
+			"url": "assets/online/sprite/shop.json",
+			"type": "sheet",
+			"name": "shop_json",
+			"subkeys": "bag_title_png,clock_1_png,clock_2_png,clock_3_png,confirm_prop_icon_png,prop_100_png,prop_10_png,prop_2_png,prop_4_png,prop_50_png,prop_5_png,prop_cash_b_png,prop_cash_m_png,prop_cash_n_png,prop_cash_s_png,prop_coin_b_png,prop_coin_m_png,prop_coin_n_png,prop_coin_s_png,prop_n_png,props_open_shop_png,props_png,props_use_png,shop_cash_select_png,shop_cash_selected_png,shop_cash_text_png,shop_chest_select_png,shop_chest_selected_png,shop_chest_text_png,shop_divider_png,shop_skillpoint_select_png,shop_skillpoint_selected_png,shop_skillpoint_text_png,shop_speedup_select_png,shop_speedup_selected_png,shop_speedup_text_png"
+		},
+		{
+			"url": "assets/online/sprite/signup.json",
+			"type": "sheet",
+			"name": "signup_json",
+			"subkeys": "sign_get_png,sign_item_10_png,sign_item_15_png,sign_item_5_png,sign_item_png,sign_item_selected_png,sign_item_today_png"
+		},
+		{
+			"url": "assets/online/sprite/skillpoint.json",
+			"type": "sheet",
+			"name": "skillpoint_json",
+			"subkeys": "skillpoint_bg_jpg,skillpoint_coin_add_png,skillpoint_coin_grey_png,skillpoint_coin_png,skillpoint_lock_body_png,skillpoint_lock_head_png,skillpoint_lock_png,skillpoint_unlock_banner_png,sp_end_1_png,sp_end_2_png,sp_end_mask_png,sp_end_png,sp_mask_1_png,sp_mask_2_png,sp_mask_3_png,sp_mask_4_png,sp_mask_5_png,sp_reset_big_png,sp_reset_png,sp_reset_text_png,sp_start_png,sp_store_1_1_png,sp_store_1_2_png,sp_store_1_png,sp_store_2_1_png,sp_store_2_2_png,sp_store_2_png,sp_store_3_1_png,sp_store_3_2_png,sp_store_3_png,sp_store_4_1_png,sp_store_4_2_png,sp_store_4_png,sp_store_5_1_png,sp_store_5_2_png,sp_store_5_png,sp_upgrade_text_png"
+		},
+		{
+			"url": "assets/online/sprite/wheel.json",
+			"type": "sheet",
+			"name": "wheel_json",
+			"subkeys": "wheel_bg2_png,wheel_bg_png,wheel_center_png,wheel_item_bg_0_6_png,wheel_item_bg_0_8_png,wheel_item_bg_1_6_png,wheel_item_bg_1_8_png,wheel_point_png,wheel_star_png,wheel_tip_bg_png,wheel_title_png"
+		},
+		{
+			"url": "assets/online/sprite/research.json",
+			"type": "sheet",
+			"name": "research_json",
+			"subkeys": "close_research_png,cook_type_01_png,cook_type_02_png,cook_type_03_png,cook_type_04_png,cook_type_05_png,cook_type_06_png,cook_type_07_png,cook_type_08_png,cook_type_09_png,cook_type_10_png,cook_type_11_png,cook_type_mask_png,food_tip_bg1_png,food_tip_bg2_png,food_tips1_png,food_tips2_png,food_tips3_png,food_tips4_png,food_tips5_png,food_tips_lock_png,icon2_png,m_bg_png,m_lock_png,materials_type0_png,materials_type1_png,materials_type2_png,materials_type3_png,materials_type4_png,materials_type5_png,materials_type6_png,research_bg_jpg,research_btn1_png,research_btn_d_png,research_btn_png,research_food_bg_png,research_htp_btn_png,research_income_bg_png,research_perfect_bg_png,research_perfect_png,research_rate_bg_png,research_restaurant_bg_png,research_status_1_png,research_status_2_png,research_status_3_png,research_status_bg_1_png,research_status_bg_2_png,research_status_bg_3_png,research_tap_selected_png,research_tip_icon_png,research_wrong_png,shop_title_text_png,start_research_png,tips_btn_text_png,tips_title_text_png,unlock_food_bg_png,unlock_foodname_bg_png,unlock_half_text_png"
+		},
+		{
+			"url": "assets/online/sprite/main.json",
+			"type": "sheet",
+			"name": "main_json",
+			"subkeys": "CurIdxDisPop_png,active_chef_text_png,active_courier_text_png,active_skill_btn_png,active_skill_reset_png,active_skill_tips_png,active_waiter_text_png,add_btn_icon_png,adventure_icon_btn_png,backpackage_banner_png,backpackage_bg_png,backpackage_default_png,bag_mul_blue_png,bag_mul_red_png,batchBuy_png,bg_floor_png,bg_upgrade_png,box_png,box_takeaway_png,chef_empty2_png,chef_empty_png,chest_icon_png,common_number_bg_png,cookbook_icon_btn_png,cooking_bar_bg_png,cooking_bar_png,countdown_bg_png,default_avatar_png,down_cloud_png,eaves_01_png,face_happy_png,face_unhappy_png,feedback_btn_png,glow_rotate_png,gpUpDown_icon_png,icon_down_png,icon_home_lock_png,icon_home_profit_png,income_text_png,item_finish_text_png,item_research_text_png,level_text_png,loading01_png,loading02_1_png,loading02_png,loading03_png,loading04_png,loadingBg01_png,loadingBg02_png,loadingBg03_png,loadingBg04_png,main_item_time_text_png,main_item_zuozi2_png,main_speedup_bg_png,mainitem_btn_png,manager_empty2_png,manager_empty_png,map_btn_png,mission_finish_bg_png,mission_unfinish_bg_png,notice_bg_png,notice_icon_png,one_active_png,one_cooldown_png,one_skill_png,open_outerring_png,orange_banner_png,pic_arrow_png,pic_play_png,prop_icon_png,rank_icon_png,red_dot_png,research_icon_btn_png,secincome_icon_png,shop_btn_png,shop_level_bg_png,sign_icon_png,skill_icon_btn_png,skillpoint_icon_png,speedup_icon_png,star2_png,suipian_png,temp_coin_bg_png,unlock_bg1_png,unlock_bg2_png,unlock_btn_png,unlock_name_png,up_cloud_png,upgrade_icon_png,upgrade_shop_btn_png,upgrade_tips_png,waikuo1_png,waikuo2_png,wheel_icon_png"
+		},
+		{
+			"url": "assets/online/sprite/suite.json",
+			"type": "sheet",
+			"name": "suite_json",
+			"subkeys": "body0_png,body1_png,body2_png,body3_png,body4_png,body5_png,boss_current_png,boss_next_png,boss_secret_get_png,boss_secret_title_png,boss_secret_upgrade_png,boss_select_png,boss_selected_png,changeclothes_btn_png,chest_1_png,chest_2_png,chest_3_png,chest_4_png,chest_banner_1_png,chest_banner_2_png,chest_banner_3_png,chest_banner_4_png,chest_card_1_png,chest_card_2_png,chest_card_3_png,chest_card_4_png,chest_shadow_png,clothes_bg_png,collectsuite_btn_text_png,dressup_btn_png,dressup_btn_text_png,figure_select_png,figure_selected_png,hat_bg_png,head0_png,head1_png,head2_png,head3_png,head4_png,head5_png,lower0_png,lower1_png,lower2_png,lower3_png,lower4_png,lower5_png,pants_bg_png,pulldown_icon_png,rank_select_png,rank_selected_png,suite1_png,suite2_png,suite3_png,suite4_png,suite5_png,suite_back_png,suite_bg_1_png,suite_bg_2_png,suite_bg_3_png,suite_bg_4_png,suite_bg_png,suite_card_1_png,suite_card_2_png,suite_card_3_png,suite_card_4_png,suite_coin_bg_png,suite_coins_bg_png,suite_effect_icon_png,suite_effect_none_png,suite_effect_text_png,suite_get_png,suite_info_text_png,suite_left_arrow_png,suite_level_arrow_png,suite_level_bar_bg_png,suite_level_bar_png,suite_right_arrow_png,suite_select_png,suite_selected_png,suite_shadow_png,suite_type_all_png,suite_type_clothes_png,suite_type_dressed_png,suite_type_hats_png,suite_type_label_png,suite_type_level_png,suite_type_pants_png,suite_type_rarity_png,suite_type_suit_png,suiterarity_1_png,suiterarity_2_png,suiterarity_3_png,suiterarity_4_png,title_c1_png,title_c2_png,title_c3_png,title_c4_png,title_c5_png,title_c6_png,title_i1_png,title_i2_png,title_i3_png,title_i4_png,title_i5_png,top1_png,top2_png,top3_png,top4_png,top5_png,trousers1_png,trousers2_png,trousers3_png,trousers4_png,trousers5_png,undress_btn_png"
+		},
+		{
+			"url": "assets/online/sound/bgm.mp3",
+			"type": "sound",
+			"name": "bgm_mp3"
+		},
+		{
+			"url": "assets/online/sound/chestlist.mp3",
+			"type": "sound",
+			"name": "chestlist_mp3"
+		},
+		{
+			"url": "assets/online/sound/click.mp3",
+			"type": "sound",
+			"name": "click_mp3"
+		},
+		{
+			"url": "assets/online/sound/close.mp3",
+			"type": "sound",
+			"name": "close_mp3"
+		},
+		{
+			"url": "assets/online/sound/coinboom.mp3",
+			"type": "sound",
+			"name": "coinboom_mp3"
+		},
+		{
+			"url": "assets/online/sound/coinlevel.mp3",
+			"type": "sound",
+			"name": "coinlevel_mp3"
+		},
+		{
+			"url": "assets/online/sound/done.mp3",
+			"type": "sound",
+			"name": "done_mp3"
+		},
+		{
+			"url": "assets/online/sound/fail.mp3",
+			"type": "sound",
+			"name": "fail_mp3"
+		},
+		{
+			"url": "assets/online/sound/openchest.mp3",
+			"type": "sound",
+			"name": "openchest_mp3"
+		},
+		{
+			"url": "assets/online/sound/openkitchen.mp3",
+			"type": "sound",
+			"name": "openkitchen_mp3"
+		},
+		{
+			"url": "assets/online/sound/reward.mp3",
+			"type": "sound",
+			"name": "reward_mp3"
+		},
+		{
+			"url": "assets/online/sound/scene.mp3",
+			"type": "sound",
+			"name": "scene_mp3"
+		},
+		{
+			"url": "assets/online/sound/succ.mp3",
+			"type": "sound",
+			"name": "succ_mp3"
+		}
+	]
+}

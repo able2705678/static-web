@@ -1,0 +1,337 @@
+{
+	"styles": {
+		"popupTitle": {
+			"fontFamily": "SimHei",
+			"size": 48,
+			"textColor": "0xfffef1",
+			"stroke": 2,
+			"strokeColor": "0x8a5a0f"
+		},
+		"subTitle": {
+			"fontFamily": "SimHei",
+			"size": 23,
+			"textColor": "0xe1a85e"
+		},
+		"yellowBtnLable": {
+			"fontFamily": "SimHei",
+			"size": 24,
+			"textColor": "0xFFF3E4",
+			"stroke": 2,
+			"strokeColor": "0x583717"
+		},
+		"blueBtnLable": {
+			"fontFamily": "SimHei",
+			"size": 24,
+			"textColor": "0xe5f4ff",
+			"stroke": 2,
+			"strokeColor": "0x22375b"
+		},
+		"grayeBtnLable": {
+			"fontFamily": "SimHei",
+			"size": 24,
+			"textColor": "0xffffff",
+			"stroke": 2,
+			"strokeColor": "0x353535"
+		},
+		"navigationbarBtn": {
+			"fontFamily": "SimHei",
+			"size": 24,
+			"textColor": "0xd1ad80"
+		},
+		"navigationbarBtnSelected": {
+			"fontFamily": "SimHei",
+			"size": 24,
+			"textColor": "0xfffef1",
+			"stroke": 2,
+			"strokeColor": "0x90631b"
+		},
+		"chineseLightOrange": {
+			"fontFamily": "SimHei",
+			"textColor": "0xb48d64"
+		},
+		"chineseGreyWhite": {
+			"fontFamily": "SimHei",
+			"textColor": "0xd5cdb9"
+		},
+		"chineseBlue": {
+			"fontFamily": "SimHei",
+			"textColor": "0x76b0b5"
+		},
+		"chineseJacinth": {
+			"fontFamily": "SimHei",
+			"textColor": "0xbf5d3a"
+		},
+		"chinesWhiteStroke": {
+			"fontFamily": "SimHei",
+			"textColor": "0xf3e4cd",
+			"stroke": 2,
+			"strokeColor": "0x2f1c15"
+		},
+		"chinesYellowStroke": {
+			"fontFamily": "SimHei",
+			"textColor": "0xebe29d",
+			"stroke": 2,
+			"strokeColor": "0x211a00"
+		},
+		"figureLightOrange": {
+			"fontFamily": "Arial",
+			"textColor": "0xb48d64",
+			"bold": true
+		},
+		"figureGreyWhite": {
+			"fontFamily": "Arial",
+			"textColor": "0xd5cdb9",
+			"bold": true
+		},
+		"figureBlue": {
+			"fontFamily": "Arial",
+			"textColor": "0x76b0b5",
+			"bold": true
+		},
+		"figureJacinth": {
+			"fontFamily": "Arial",
+			"textColor": "0xbf5d3a",
+			"bold": true
+		},
+		"figureWhiteStroke": {
+			"fontFamily": "Arial",
+			"textColor": "0xf3e4cd",
+			"stroke": 2,
+			"strokeColor": "0x2f1c15",
+			"bold": true
+		},
+		"figureYellowStroke": {
+			"fontFamily": "Arial",
+			"textColor": "0xebe29d",
+			"stroke": 2,
+			"strokeColor": "0x211a00",
+			"bold": true
+		},
+		"chineseLightWhite": {
+			"fontFamily": "Microsoft YaHei",
+			"textColor": "0xf3e4cd",
+			"stroke": 2,
+			"strokeColor": "0x2d242d",
+			"bold": "ture"
+		},
+		"chineseWhite": {
+			"fontFamily": "Microsoft YaHei",
+			"textColor": "0xffffff",
+			"stroke": 2,
+			"strokeColor": "0x2d242d",
+			"bold": "ture"
+		},
+		"chineseGray": {
+			"fontFamily": "Microsoft YaHei",
+			"textColor": "0x7F8993",
+			"stroke": 2,
+			"strokeColor": "0x2d242d",
+			"bold": "ture"
+		},
+		"chineseBeige": {
+			"fontFamily": "Microsoft YaHei",
+			"textColor": "0xF0C78C",
+			"stroke": 2,
+			"strokeColor": "0x2d242d",
+			"bold": "ture"
+		},
+		"chineseOrange": {
+			"fontFamily": "Microsoft YaHei",
+			"textColor": "0xff7e00",
+			"stroke": 2,
+			"strokeColor": "0x2d242d",
+			"bold": "ture"
+		},
+		"chineseGreen": {
+			"fontFamily": "Microsoft YaHei",
+			"textColor": "0x86cb0e",
+			"stroke": 2,
+			"strokeColor": "0x2d242d",
+			"bold": "ture"
+		},
+		"chineseYellow": {
+			"fontFamily": "Microsoft YaHei",
+			"textColor": "0xffBC2D",
+			"stroke": 2,
+			"strokeColor": "0x2d242d",
+			"bold": "ture"
+		},
+		"figureLightWhite": {
+			"fontFamily": "Arial",
+			"textColor": "0xf3e4cd",
+			"stroke": 2,
+			"strokeColor": "0x2d242d",
+			"bold": "ture"
+		},
+		"figureWhite": {
+			"fontFamily": "Arial",
+			"textColor": "0xffffff",
+			"stroke": 2,
+			"strokeColor": "0x2d242d",
+			"bold": "ture"
+		},
+		"figureGray": {
+			"fontFamily": "Arial",
+			"textColor": "0x7F8993",
+			"stroke": 2,
+			"strokeColor": "0x2d242d",
+			"bold": "ture"
+		},
+		"figureBeige": {
+			"fontFamily": "Arial",
+			"textColor": "0xF0C78C",
+			"stroke": 2,
+			"strokeColor": "0x2d242d",
+			"bold": "ture"
+		},
+		"figureYellow": {
+			"fontFamily": "Arial",
+			"textColor": "0xffbc2d",
+			"stroke": 2,
+			"strokeColor": "0x2d242d",
+			"bold": "ture"
+		},
+		"figureGreen": {
+			"fontFamily": "Arial",
+			"textColor": "0x84fc06",
+			"stroke": 2,
+			"strokeColor": "0x2d242d",
+			"bold": "ture"
+		}
+	},
+	"skins": {
+		"eui.Button": "resource/eui_skins/ButtonSkin.exml",
+		"eui.CheckBox": "resource/eui_skins/CheckBoxSkin.exml",
+		"eui.HScrollBar": "resource/eui_skins/HScrollBarSkin.exml",
+		"eui.HSlider": "resource/eui_skins/HSliderSkin.exml",
+		"eui.Panel": "resource/eui_skins/PanelSkin.exml",
+		"eui.TextInput": "resource/eui_skins/TextInputSkin.exml",
+		"eui.ProgressBar": "resource/eui_skins/ProgressBarSkin.exml",
+		"eui.RadioButton": "resource/eui_skins/RadioButtonSkin.exml",
+		"eui.Scroller": "resource/eui_skins/ScrollerSkin.exml",
+		"eui.ToggleSwitch": "resource/eui_skins/ToggleSwitchSkin.exml",
+		"eui.VScrollBar": "resource/eui_skins/VScrollBarSkin.exml",
+		"eui.VSlider": "resource/eui_skins/VSliderSkin.exml",
+		"eui.ItemRenderer": "resource/eui_skins/ItemRendererSkin.exml"
+	},
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/eui_skins/ButtonSkin.exml",
+		"resource/eui_skins/CheckBoxSkin.exml",
+		"resource/eui_skins/HScrollBarSkin.exml",
+		"resource/eui_skins/HSliderSkin.exml",
+		"resource/eui_skins/ItemRendererSkin.exml",
+		"resource/eui_skins/PanelSkin.exml",
+		"resource/eui_skins/ProgressBarSkin.exml",
+		"resource/eui_skins/RadioButtonSkin.exml",
+		"resource/eui_skins/ScrollerSkin.exml",
+		"resource/eui_skins/TextInputSkin.exml",
+		"resource/eui_skins/ToggleSwitchSkin.exml",
+		"resource/eui_skins/VScrollBarSkin.exml",
+		"resource/eui_skins/VSliderSkin.exml",
+		"resource/ui/adventure/AdventureItemSkin.exml",
+		"resource/ui/adventure/AdventurePropList.exml",
+		"resource/ui/adventure/AdventurePropListItem.exml",
+		"resource/ui/adventure/AdventureSkin.exml",
+		"resource/ui/bag/BagItemSkin.exml",
+		"resource/ui/MyButton.exml",
+		"resource/ui/bag/BagSkin.exml",
+		"resource/ui/bag/ConfirmItemSkin.exml",
+		"resource/ui/bag/UsePropSkin.exml",
+		"resource/ui/bank/BankItemSkin.exml",
+		"resource/ui/bank/BankRule.exml",
+		"resource/ui/bank/BankSkin.exml",
+		"resource/ui/loading/BankProgress.exml",
+		"resource/ui/bank/ExchangeSkin.exml",
+		"resource/ui/bigmap/AddItemSkin.exml",
+		"resource/ui/bigmap/AddPopSkin.exml",
+		"resource/ui/bigmap/AddSuccessSkin.exml",
+		"resource/ui/bigmap/BigMapSkin.exml",
+		"resource/ui/bigmap/BigMapStore.exml",
+		"resource/ui/bigmap/BigMapUnlockStoreSkin.exml",
+		"resource/ui/bigmap/CollectItemSkin.exml",
+		"resource/ui/bigmap/temp.exml",
+		"resource/ui/bigmap/UnlockStoreSkin.exml",
+		"resource/ui/clothing/bossShowIntroduceSkin.exml",
+		"resource/ui/clothing/BossTip.exml",
+		"resource/ui/clothing/BossUpgrade.exml",
+		"resource/ui/clothing/chestsItemSkin.exml",
+		"resource/ui/loading/ClothingNunberProgress.exml",
+		"resource/ui/clothing/chestsShowAllItemSkin.exml",
+		"resource/ui/clothing/chestsSkin.exml",
+		"resource/ui/clothing/clothingInfoSkin.exml",
+		"resource/ui/clothing/clothingItemSkin.exml",
+		"resource/ui/loading/SuiteProgress.exml",
+		"resource/ui/clothing/clothingSkin.exml",
+		"resource/ui/clothing/listSelectSkin.exml",
+		"resource/ui/clothing/miniChest.exml",
+		"resource/ui/clothing/rankItemSkin.exml",
+		"resource/ui/CloudSkin.exml",
+		"resource/ui/cookbook/cookbookMainSkin.exml",
+		"resource/ui/cookbook/cookbookMaterialDes.exml",
+		"resource/ui/cookbook/cookbookMaterialItem.exml",
+		"resource/ui/cookbook/cookbookMenuItem.exml",
+		"resource/ui/cookbook/cookbookMenuSkin.exml",
+		"resource/ui/cookbook/cookbookSelectItem.exml",
+		"resource/ui/cookbook/cookbookSelectSkin.exml",
+		"resource/ui/cookbook/cookbookSteps.exml",
+		"resource/ui/cookbook/getCookbookSkin.exml",
+		"resource/ui/FlyingGift/FlyingGiftSkin.exml",
+		"resource/ui/FreeUpgradeSkin.exml",
+		"resource/ui/guide/GuideMainUIIdleSkin.exml",
+		"resource/ui/guide/GuideMainUISkin.exml",
+		"resource/ui/HeadTopSkillSkin.exml",
+		"resource/ui/hire/HireItemSkin.exml",
+		"resource/ui/hire/HireMainSkin.exml",
+		"resource/ui/hire/HireRewardItemSkin.exml",
+		"resource/ui/hire/HireRewardSkin.exml",
+		"resource/ui/loading.exml",
+		"resource/ui/loading/BigReadingTimeProgress.exml",
+		"resource/ui/loading/DeliveredProgress.exml",
+		"resource/ui/loading/earningsProgress.exml",
+		"resource/ui/loading/ReadingTimeProgress.exml",
+		"resource/ui/loading/UpgradeProgress.exml",
+		"resource/ui/loadingTemp.exml",
+		"resource/ui/main/mainCompoment.exml",
+		"resource/ui/main/mainFlopCoin.exml",
+		"resource/ui/main/mainItemSkin.exml",
+		"resource/ui/main/mainPlayerHeadSkin.exml",
+		"resource/ui/main/mainSpeedupToast.exml",
+		"resource/ui/main/mainUpBgSkin.exml",
+		"resource/ui/main/noticeSkin.exml",
+		"resource/ui/mainSkin.exml",
+		"resource/ui/mission/MissionSkin.exml",
+		"resource/ui/NonsenseSkin.exml",
+		"resource/ui/popup/CurIdxDisPopSkin.exml",
+		"resource/ui/popup/DoubleIncomeSkin.exml",
+		"resource/ui/popup/HtpSkin.exml",
+		"resource/ui/popup/NotEnoughSkin.exml",
+		"resource/ui/popup/OfflineSkin.exml",
+		"resource/ui/popup/PublicRewardSkin.exml",
+		"resource/ui/popup/SignupSkin.exml",
+		"resource/ui/popup/TipItemSkin.exml",
+		"resource/ui/popup/TipSkin.exml",
+		"resource/ui/research/materialItemSkin.exml",
+		"resource/ui/research/materialTypeSkin.exml",
+		"resource/ui/research/researchHtpSkin.exml",
+		"resource/ui/research/researchSelectItemSkin.exml",
+		"resource/ui/research/researchSkin.exml",
+		"resource/ui/research/starSkin.exml",
+		"resource/ui/research/unlockMaterial.exml",
+		"resource/ui/shop/ShopBuyChestSkin.exml",
+		"resource/ui/shop/ShopChestSkin.exml",
+		"resource/ui/shop/ShopItemSkin.exml",
+		"resource/ui/shop/ShopSkillPointSkin.exml",
+		"resource/ui/shop/ShopSkin.exml",
+		"resource/ui/skill/ActiveBannerSkin.exml",
+		"resource/ui/skill/ActiveSkillItemSkin.exml",
+		"resource/ui/skill/ActiveSkillSkin.exml",
+		"resource/ui/skillpoint/SkillPointItem.exml",
+		"resource/ui/skillpoint/SkillPointResetSkin.exml",
+		"resource/ui/skillpoint/SkillPointSkin.exml",
+		"resource/ui/upgrade/upgradeSkin.exml",
+		"resource/ui/wheel/wheelItemSkin.exml",
+		"resource/ui/wheel/wheelSkin.exml"
+	],
+	"path": "resource/default.thm.json"
+}

@@ -1,0 +1,17 @@
+{
+    "game_settings": {
+        "default_coin": 30000,
+        "default_cash": 100,
+        "max_level": 1000,
+        "offline_hours": 24
+    },
+    "ui_settings": {
+        "animation_speed": 1.0,
+        "auto_save_interval": 30
+    },
+    "debug_settings": {
+        "show_fps": false,
+        "show_log": false,
+        "enable_cheats": false
+    }
+}

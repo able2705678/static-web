@@ -1,0 +1,380 @@
+{
+	"groups": [
+		{
+			"keys": "loading_bar_png,loading_bar_d_png,loading_bg_jpg,suipian_json,jinbi_shengji_json,coinText_fnt,coinText_png,commonText_png,commonText_fnt,m1_json,greenText_fnt,greenText_png,orangeText_png,orangeText_fnt,yellowBtnText_fnt,yellowBtnText_png,loading_logo_png,bankText_fnt,bankText_png,lizi_xing_json,lizi_xing_png,main_item_research_btn2_png,coin1_tex_png,coin2_tex_png,coin3_tex_png,coin4_tex_png,coin5_tex_png,bigmap_store_enter_png,mission_banner_png,FreeupgradeConfig_zip,loading_tip_png,unlock_bg_png,yellow_wenhao_png",
+			"name": "preload"
+		},
+		{
+			"keys": "loading_bar_png,loading_bar_d_png,loading_bg_jpg,loading_bar_bg_png,loading_logo_png,feedback_png,loading_tip_png",
+			"name": "loading"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/loading/loading_bar.png",
+			"type": "image",
+			"name": "loading_bar_png"
+		},
+		{
+			"url": "assets/loading/loading_bar_d.png",
+			"type": "image",
+			"name": "loading_bar_d_png"
+		},
+		{
+			"url": "assets/loading/loading_bg.jpg",
+			"type": "image",
+			"name": "loading_bg_jpg"
+		},
+		{
+			"url": "assets/offline/particle/suipian.json",
+			"type": "json",
+			"name": "suipian_json"
+		},
+		{
+			"url": "assets/offline/particle/jinbi_shengji.json",
+			"type": "json",
+			"name": "jinbi_shengji_json"
+		},
+		{
+			"url": "assets/offline/coinText.fnt",
+			"type": "font",
+			"name": "coinText_fnt"
+		},
+		{
+			"url": "assets/offline/coinText.png",
+			"type": "image",
+			"name": "coinText_png"
+		},
+		{
+			"url": "assets/offline/commonText.png",
+			"type": "image",
+			"name": "commonText_png"
+		},
+		{
+			"url": "assets/offline/commonText.fnt",
+			"type": "font",
+			"name": "commonText_fnt"
+		},
+		{
+			"url": "assets/offline/m1.json",
+			"type": "sheet",
+			"name": "m1_json",
+			"subkeys": "m_img_01_png,m_img_02_png,m_img_03_png,m_img_04_png,m_img_05_png,m_img_06_png,m_img_07_png,m_img_08_png,m_img_09_png,m_img_10_png,m_img_11_png,m_img_12_png,m_img_13_png,m_img_14_png,m_img_15_png,m_img_16_png,m_img_17_png,m_img_18_png,m_img_19_png,m_img_20_png,m_img_21_png,m_img_22_png,m_img_23_png,m_img_24_png,m_img_25_png,m_img_26_png,m_img_27_png,m_img_28_png,m_img_29_png"
+		},
+		{
+			"url": "assets/offline/greenText.fnt",
+			"type": "font",
+			"name": "greenText_fnt"
+		},
+		{
+			"url": "assets/offline/greenText.png",
+			"type": "image",
+			"name": "greenText_png"
+		},
+		{
+			"url": "assets/offline/orangeText.png",
+			"type": "image",
+			"name": "orangeText_png"
+		},
+		{
+			"url": "assets/offline/orangeText.fnt",
+			"type": "font",
+			"name": "orangeText_fnt"
+		},
+		{
+			"url": "assets/offline/yellowBtnText.fnt",
+			"type": "font",
+			"name": "yellowBtnText_fnt"
+		},
+		{
+			"url": "assets/offline/yellowBtnText.png",
+			"type": "image",
+			"name": "yellowBtnText_png"
+		},
+		{
+			"url": "assets/loading/loading_logo.png",
+			"type": "image",
+			"name": "loading_logo_png"
+		},
+		{
+			"url": "assets/loading/loading_bar_bg.png",
+			"type": "image",
+			"name": "loading_bar_bg_png"
+		},
+		{
+			"url": "assets/loading/feedback.png",
+			"type": "image",
+			"name": "feedback_png"
+		},
+		{
+			"url": "assets/offline/data/ChefMngConfig.zip",
+			"type": "bin",
+			"name": "ChefMngConfig_zip"
+		},
+		{
+			"url": "assets/offline/data/CourierConfig.zip",
+			"type": "bin",
+			"name": "CourierConfig_zip"
+		},
+		{
+			"url": "assets/offline/data/CourierMngConfig.zip",
+			"type": "bin",
+			"name": "CourierMngConfig_zip"
+		},
+		{
+			"url": "assets/offline/data/DeliveryIndexConfig.zip",
+			"type": "bin",
+			"name": "DeliveryIndexConfig_zip"
+		},
+		{
+			"url": "assets/offline/data/DishIndexConfig.zip",
+			"type": "bin",
+			"name": "DishIndexConfig_zip"
+		},
+		{
+			"url": "assets/offline/data/FactorConfig.zip",
+			"type": "bin",
+			"name": "FactorConfig_zip"
+		},
+		{
+			"url": "assets/offline/data/FoodConfig.zip",
+			"type": "bin",
+			"name": "FoodConfig_zip"
+		},
+		{
+			"url": "assets/offline/data/FoodTypeConfig.zip",
+			"type": "bin",
+			"name": "FoodTypeConfig_zip"
+		},
+		{
+			"url": "assets/offline/data/FoodWindowConfig.zip",
+			"type": "bin",
+			"name": "FoodWindowConfig_zip"
+		},
+		{
+			"url": "assets/offline/data/FunctionRoleConfig.zip",
+			"type": "bin",
+			"name": "FunctionRoleConfig_zip"
+		},
+		{
+			"url": "assets/offline/data/GuideConfig.zip",
+			"type": "bin",
+			"name": "GuideConfig_zip"
+		},
+		{
+			"url": "assets/offline/data/GuideIdleConfig.zip",
+			"type": "bin",
+			"name": "GuideIdleConfig_zip"
+		},
+		{
+			"url": "assets/offline/data/MaterialConfig.zip",
+			"type": "bin",
+			"name": "MaterialConfig_zip"
+		},
+		{
+			"url": "assets/offline/data/Mission1Config.zip",
+			"type": "bin",
+			"name": "Mission1Config_zip"
+		},
+		{
+			"url": "assets/offline/data/Mission2Config.zip",
+			"type": "bin",
+			"name": "Mission2Config_zip"
+		},
+		{
+			"url": "assets/offline/data/Mission3Config.zip",
+			"type": "bin",
+			"name": "Mission3Config_zip"
+		},
+		{
+			"url": "assets/offline/data/Mission4Config.zip",
+			"type": "bin",
+			"name": "Mission4Config_zip"
+		},
+		{
+			"url": "assets/offline/data/PrestigeLevelConfig.zip",
+			"type": "bin",
+			"name": "PrestigeLevelConfig_zip"
+		},
+		{
+			"url": "assets/offline/data/PropConfig.zip",
+			"type": "bin",
+			"name": "PropConfig_zip"
+		},
+		{
+			"url": "assets/offline/data/RestaurantConfig.zip",
+			"type": "bin",
+			"name": "RestaurantConfig_zip"
+		},
+		{
+			"url": "assets/offline/data/RewardConfig.zip",
+			"type": "bin",
+			"name": "RewardConfig_zip"
+		},
+		{
+			"url": "assets/offline/data/RiskConfig.zip",
+			"type": "bin",
+			"name": "RiskConfig_zip"
+		},
+		{
+			"url": "assets/offline/data/ShopConfig.zip",
+			"type": "bin",
+			"name": "ShopConfig_zip"
+		},
+		{
+			"url": "assets/offline/data/SkillConfig.zip",
+			"type": "bin",
+			"name": "SkillConfig_zip"
+		},
+		{
+			"url": "assets/offline/data/WaiterConfig.zip",
+			"type": "bin",
+			"name": "WaiterConfig_zip"
+		},
+		{
+			"url": "assets/offline/data/WaiterMngConfig.zip",
+			"type": "bin",
+			"name": "WaiterMngConfig_zip"
+		},
+		{
+			"url": "assets/offline/data/WaitressIndexConfig.zip",
+			"type": "bin",
+			"name": "WaitressIndexConfig_zip"
+		},
+		{
+			"url": "assets/offline/bankText.fnt",
+			"type": "font",
+			"name": "bankText_fnt"
+		},
+		{
+			"url": "assets/offline/bankText.png",
+			"type": "image",
+			"name": "bankText_png"
+		},
+		{
+			"url": "assets/offline/data/CookBookConfig.zip",
+			"type": "bin",
+			"name": "CookBookConfig_zip"
+		},
+		{
+			"url": "assets/offline/data/SkillcostConfig.zip",
+			"type": "bin",
+			"name": "SkillcostConfig_zip"
+		},
+		{
+			"url": "assets/offline/data/SkilllevelConfig.zip",
+			"type": "bin",
+			"name": "SkilllevelConfig_zip"
+		},
+		{
+			"url": "assets/offline/data/SkilltreeConfig.zip",
+			"type": "bin",
+			"name": "SkilltreeConfig_zip"
+		},
+		{
+			"url": "assets/offline/data/SuiteConfig.zip",
+			"type": "bin",
+			"name": "SuiteConfig_zip"
+		},
+		{
+			"url": "assets/offline/data/SuitecostConfig.zip",
+			"type": "bin",
+			"name": "SuitecostConfig_zip"
+		},
+		{
+			"url": "assets/offline/data/SuiterarityConfig.zip",
+			"type": "bin",
+			"name": "SuiterarityConfig_zip"
+		},
+		{
+			"url": "assets/offline/data/SuitesetConfig.zip",
+			"type": "bin",
+			"name": "SuitesetConfig_zip"
+		},
+		{
+			"url": "assets/offline/particle/lizi_xing.json",
+			"type": "json",
+			"name": "lizi_xing_json"
+		},
+		{
+			"url": "assets/offline/particle/lizi_xing.png",
+			"type": "image",
+			"name": "lizi_xing_png"
+		},
+		{
+			"url": "assets/offline/main_item_research_btn2.png",
+			"type": "image",
+			"name": "main_item_research_btn2_png"
+		},
+		{
+			"url": "assets/offline/coin1_tex.png",
+			"type": "image",
+			"name": "coin1_tex_png"
+		},
+		{
+			"url": "assets/offline/coin2_tex.png",
+			"type": "image",
+			"name": "coin2_tex_png"
+		},
+		{
+			"url": "assets/offline/coin3_tex.png",
+			"type": "image",
+			"name": "coin3_tex_png"
+		},
+		{
+			"url": "assets/offline/coin4_tex.png",
+			"type": "image",
+			"name": "coin4_tex_png"
+		},
+		{
+			"url": "assets/offline/coin5_tex.png",
+			"type": "image",
+			"name": "coin5_tex_png"
+		},
+		{
+			"url": "assets/offline/bigmap_store_enter.png",
+			"type": "image",
+			"name": "bigmap_store_enter_png"
+		},
+		{
+			"url": "assets/offline/data/GamectrlConfig.zip",
+			"type": "bin",
+			"name": "GamectrlConfig_zip"
+		},
+		{
+			"url": "assets/offline/data/FirstfunctionConfig.zip",
+			"type": "bin",
+			"name": "FirstfunctionConfig_zip"
+		},
+		{
+			"url": "assets/offline/mission_banner.png",
+			"type": "image",
+			"name": "mission_banner_png"
+		},
+		{
+			"url": "assets/offline/data/FreeupgradeConfig.zip",
+			"type": "bin",
+			"name": "FreeupgradeConfig_zip"
+		},
+		{
+			"url": "assets/offline/data/TitleConfig.zip",
+			"type": "bin",
+			"name": "TitleConfig_zip"
+		},
+		{
+			"url": "assets/loading/loading_tip.png",
+			"type": "image",
+			"name": "loading_tip_png"
+		},
+		{
+			"url": "assets/offline/unlock_bg.png",
+			"type": "image",
+			"name": "unlock_bg_png"
+		},
+		{
+			"url": "assets/offline/yellow_wenhao.png",
+			"type": "image",
+			"name": "yellow_wenhao_png"
+		}
+	]
+}
