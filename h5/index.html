@@ -19,10 +19,61 @@
             margin: 0;
             height: 100%;
         }
+        #__debug_panel {
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            max-height: 45%;
+            overflow: auto;
+            background: rgba(0,0,0,0.85);
+            color: #00ff66;
+            font: 11px/1.45 monospace;
+            z-index: 99999;
+            padding: 6px 8px;
+            display: none;
+            white-space: pre-wrap;
+            word-break: break-all;
+            border-bottom: 1px solid #333;
+        }
     </style>
 </head>
 
 <body>
+    <div id="__debug_panel"></div>
+    <script>
+    (function(){
+        var panel = document.getElementById('__debug_panel');
+        var shown = false;
+        function show(){ if(!shown){ panel.style.display='block'; shown=true; } }
+        window.__dbg = function(type, msg){
+            show();
+            var line = '[' + new Date().toLocaleTimeString() + '] [' + type + '] ' + msg;
+            panel.appendChild(document.createTextNode(line + '\n'));
+            panel.scrollTop = panel.scrollHeight;
+            try { console.log(line); } catch(e){}
+        };
+        window.addEventListener('error', function(e){
+            window.__dbg('ERROR', (e.message || '(no message)') +
+                (e.filename ? ' @ ' + e.filename.split('/').pop() + ':' + e.lineno + ':' + e.colno : '') +
+                (e.error && e.error.stack ? '\n' + e.error.stack : ''));
+        });
+        window.addEventListener('unhandledrejection', function(e){
+            var r = e.reason;
+            window.__dbg('REJECT', (r && (r.stack || r.message || r)) || r || '(empty reason)');
+        });
+        var origOpen = XMLHttpRequest.prototype.open;
+        XMLHttpRequest.prototype.open = function(method, url){
+            var self = this;
+            this.addEventListener('loadend', function(){
+                if (self.status === 0 || self.status >= 400) {
+                    window.__dbg('XHR', self.status + ' ' + method + ' ' + url);
+                }
+            });
+            return origOpen.apply(self, arguments);
+        };
+        window.__dbg('BOOT', 'index.html loaded');
+    })();
+    </script>
+
     <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
          data-entry-class="Main"
          data-orientation="auto"
@@ -32,7 +83,7 @@
          data-content-height="1134"
          data-show-paint-rect="false"
          data-multi-fingered="2"
-         data-show-fps="false" data-show-log="false"
+         data-show-fps="true" data-show-log="true"
          data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
     </div>
 <script>
@@ -61,33 +112,39 @@
             s.removeEventListener('load', arguments.callee, false);
             callback();
         }, false);
+        s.addEventListener('error', function () {
+            window.__dbg('SCRIPT-FAIL', src);
+        });
         document.body.appendChild(s);
     };
 
     var xhr = new XMLHttpRequest();
     xhr.open('GET', './manifest.json?v=' + Math.random(), true);
     xhr.addEventListener("load", function () {
+        window.__dbg('MANIFEST', 'loaded, parsing');
         var manifest = JSON.parse(xhr.response);
         var list = manifest.initial.concat(manifest.game);
+        window.__dbg('SCRIPTS', 'loading ' + list.length + ' files');
         loadScript(list, function () {
-            /**
-             * {
-             * "renderMode":, //Engine rendering mode, "canvas" or "webgl"
-             * "audioType": 0 //Use the audio type, 0: default, 2: web audio, 3: audio
-             * "antialias": //Whether the anti-aliasing is enabled in WebGL mode, true: on, false: off, defaults to false
-             * "calculateCanvasScaleFactor": //a function return canvas scale factor
-             * }
-             **/
-            egret.runEgret({ renderMode: "webgl", audioType: 0, calculateCanvasScaleFactor:function(context) {
-                var backingStore = context.backingStorePixelRatio ||
-                    context.webkitBackingStorePixelRatio ||
-                    context.mozBackingStorePixelRatio ||
-                    context.msBackingStorePixelRatio ||
-                    context.oBackingStorePixelRatio ||
-                    context.backingStorePixelRatio || 1;
-                return (window.devicePixelRatio || 1) / backingStore;
-            }});
+            window.__dbg('SCRIPTS', 'all loaded, starting egret');
+            try {
+                egret.runEgret({ renderMode: "webgl", audioType: 0, calculateCanvasScaleFactor:function(context) {
+                    var backingStore = context.backingStorePixelRatio ||
+                        context.webkitBackingStorePixelRatio ||
+                        context.mozBackingStorePixelRatio ||
+                        context.msBackingStorePixelRatio ||
+                        context.oBackingStorePixelRatio ||
+                        context.backingStorePixelRatio || 1;
+                    return (window.devicePixelRatio || 1) / backingStore;
+                }});
+                window.__dbg('EGRET', 'runEgret returned OK');
+            } catch(err) {
+                window.__dbg('EGRET-ERROR', (err && err.stack) || err);
+            }
         });
+    });
+    xhr.addEventListener('error', function(){
+        window.__dbg('MANIFEST-FAIL', 'manifest.json request failed, status=' + xhr.status);
     });
     xhr.send(null);
 </script>
